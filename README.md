@@ -15,3 +15,7 @@
 
 ## منبع
 https://21st.dev
+
+
+## Architecture update
+The archive uses 21st.dev as the canonical source. It does not mirror third-party source code or prompts. Each card stores a canonical source URL and preview metadata when available. The 21st registry currently exposes 12,000+ React components/templates/themes and supports search, live previews, code/prompts, and MCP/CLI workflows. See https://21st.dev/community/components and https://21st.dev/mcp.

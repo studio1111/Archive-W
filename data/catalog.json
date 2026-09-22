@@ -4,252 +4,252 @@
   "categories": [
     [
       "Heros",
-      "https://21st.dev/community/components/heroes",
+      "https://21st.dev/community/components/s/heroes",
       1152
     ],
     [
       "Features",
-      "https://21st.dev/community/components/features",
+      "https://21st.dev/community/components/s/features",
       318
     ],
     [
       "AI Chat Components",
-      "https://21st.dev/community/components/ai-chats",
+      "https://21st.dev/community/components/s/ai-chats",
       248
     ],
     [
       "Calls to Action",
-      "https://21st.dev/community/components/calls-to-action",
+      "https://21st.dev/community/components/s/calls-to-action",
       501
     ],
     [
       "Buttons",
-      "https://21st.dev/community/components/buttons",
+      "https://21st.dev/community/components/s/buttons",
       2043
     ],
     [
       "Testimonials",
-      "https://21st.dev/community/components/testimonials",
+      "https://21st.dev/community/components/s/testimonials",
       161
     ],
     [
       "Pricing Sections",
-      "https://21st.dev/community/components/pricing-sections",
+      "https://21st.dev/community/components/s/pricing-sections",
       216
     ],
     [
       "Texts",
-      "https://21st.dev/community/components/texts",
+      "https://21st.dev/community/components/s/texts",
       663
     ],
     [
       "Footers",
-      "https://21st.dev/community/components/footers",
+      "https://21st.dev/community/components/s/footers",
       65
     ],
     [
       "Galleries",
-      "https://21st.dev/community/components/galleries",
+      "https://21st.dev/community/components/s/galleries",
       272
     ],
     [
       "Navigation Menus",
-      "https://21st.dev/community/components/navigation-menus",
+      "https://21st.dev/community/components/s/navigation-menus",
       477
     ],
     [
       "Cards",
-      "https://21st.dev/community/components/cards",
+      "https://21st.dev/community/components/s/cards",
       1780
     ],
     [
       "Dialogs / Modals",
-      "https://21st.dev/community/components/dialogs",
+      "https://21st.dev/community/components/s/dialogs",
       328
     ],
     [
       "Forms",
-      "https://21st.dev/community/components/forms",
+      "https://21st.dev/community/components/s/forms",
       1522
     ],
     [
       "Dashboards",
-      "https://21st.dev/community/components/dashboards",
+      "https://21st.dev/community/components/s/dashboards",
       400
     ],
     [
       "Tables",
-      "https://21st.dev/community/components/tables",
+      "https://21st.dev/community/components/s/tables",
       313
     ],
     [
       "Tabs",
-      "https://21st.dev/community/components/tabs",
+      "https://21st.dev/community/components/s/tabs",
       239
     ],
     [
       "Accordions",
-      "https://21st.dev/community/components/accordions",
+      "https://21st.dev/community/components/s/accordions",
       234
     ],
     [
       "Avatars",
-      "https://21st.dev/community/components/avatars",
+      "https://21st.dev/community/components/s/avatars",
       597
     ],
     [
       "Badges",
-      "https://21st.dev/community/components/badges",
+      "https://21st.dev/community/components/s/badges",
       605
     ],
     [
       "Calendars",
-      "https://21st.dev/community/components/calendars",
+      "https://21st.dev/community/components/s/calendars",
       239
     ],
     [
       "Carousels",
-      "https://21st.dev/community/components/carousels",
+      "https://21st.dev/community/components/s/carousels",
       239
     ],
     [
       "Charts & Data Viz",
-      "https://21st.dev/community/components/charts-and-data-viz",
+      "https://21st.dev/community/components/s/charts-and-data-viz",
       246
     ],
     [
       "Checkboxes",
-      "https://21st.dev/community/components/checkboxes",
+      "https://21st.dev/community/components/s/checkboxes",
       238
     ],
     [
       "Dropdowns",
-      "https://21st.dev/community/components/dropdowns",
+      "https://21st.dev/community/components/s/dropdowns",
       506
     ],
     [
       "Empty States",
-      "https://21st.dev/community/components/empty-states",
+      "https://21st.dev/community/components/s/empty-states",
       77
     ],
     [
       "File Uploads",
-      "https://21st.dev/community/components/file-uploads",
+      "https://21st.dev/community/components/s/file-uploads",
       154
     ],
     [
       "Inputs",
-      "https://21st.dev/community/components/inputs",
+      "https://21st.dev/community/components/s/inputs",
       949
     ],
     [
       "Links",
-      "https://21st.dev/community/components/links",
+      "https://21st.dev/community/components/s/links",
       354
     ],
     [
       "Lists",
-      "https://21st.dev/community/components/lists",
+      "https://21st.dev/community/components/s/lists",
       349
     ],
     [
       "Menus",
-      "https://21st.dev/community/components/menus",
+      "https://21st.dev/community/components/s/menus",
       287
     ],
     [
       "Notifications",
-      "https://21st.dev/community/components/notifications",
+      "https://21st.dev/community/components/s/notifications",
       247
     ],
     [
       "Onboarding",
-      "https://21st.dev/community/components/onboarding",
+      "https://21st.dev/community/components/s/onboarding",
       53
     ],
     [
       "Paginations",
-      "https://21st.dev/community/components/paginations",
+      "https://21st.dev/community/components/s/paginations",
       130
     ],
     [
       "Popovers",
-      "https://21st.dev/community/components/popovers",
+      "https://21st.dev/community/components/s/popovers",
       179
     ],
     [
       "Profiles",
-      "https://21st.dev/community/components/profiles",
+      "https://21st.dev/community/components/s/profiles",
       270
     ],
     [
       "Progress",
-      "https://21st.dev/community/components/progress",
+      "https://21st.dev/community/components/s/progress",
       375
     ],
     [
       "Radio Groups",
-      "https://21st.dev/community/components/radio-groups",
+      "https://21st.dev/community/components/s/radio-groups",
       152
     ],
     [
       "Search Bars",
-      "https://21st.dev/community/components/search-bars",
+      "https://21st.dev/community/components/s/search-bars",
       218
     ],
     [
       "Selects",
-      "https://21st.dev/community/components/selects",
+      "https://21st.dev/community/components/s/selects",
       316
     ],
     [
       "Sidebars",
-      "https://21st.dev/community/components/sidebars",
+      "https://21st.dev/community/components/s/sidebars",
       95
     ],
     [
       "Sign Ins",
-      "https://21st.dev/community/components/sign-ins",
+      "https://21st.dev/community/components/s/sign-ins",
       103
     ],
     [
       "Sign ups",
-      "https://21st.dev/community/components/sign-ups",
+      "https://21st.dev/community/components/s/sign-ups",
       58
     ],
     [
       "Sliders",
-      "https://21st.dev/community/components/sliders",
+      "https://21st.dev/community/components/s/sliders",
       217
     ],
     [
       "Spinner Loaders",
-      "https://21st.dev/community/components/spinner-loaders",
+      "https://21st.dev/community/components/s/spinner-loaders",
       480
     ],
     [
       "Tags",
-      "https://21st.dev/community/components/tags",
+      "https://21st.dev/community/components/s/tags",
       74
     ],
     [
       "Text Areas",
-      "https://21st.dev/community/components/text-areas",
+      "https://21st.dev/community/components/s/text-areas",
       187
     ],
     [
       "Toasts",
-      "https://21st.dev/community/components/toasts",
+      "https://21st.dev/community/components/s/toasts",
       79
     ],
     [
       "Toggles",
-      "https://21st.dev/community/components/toggles",
+      "https://21st.dev/community/components/s/toggles",
       532
     ],
     [
       "Tooltips",
-      "https://21st.dev/community/components/tooltips",
+      "https://21st.dev/community/components/s/tooltips",
       267
     ]
   ]

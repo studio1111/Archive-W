@@ -1,95 +1,60 @@
-const items=[{id:"live-0",title:"Scroll Media Expansion Hero",cat:"Hero",desc:"انیمیشن رسانه‌ای هنگام اسکرول",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Hero", "Preview", "Source"]},
-{id:"live-1",title:"Scroll Locked Video Hero",cat:"Hero",desc:"Hero ویدیویی قفل‌شده روی اسکرول",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Hero", "Preview", "Source"]},
-{id:"live-2",title:"Black Hole Hero Section",cat:"Hero",desc:"Hero فضایی با جلوهٔ Black Hole",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Hero", "Preview", "Source"]},
-{id:"live-3",title:"Image Stream Hero",cat:"Hero",desc:"Hero مبتنی بر جریان تصویر",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Hero", "Preview", "Source"]},
-{id:"live-4",title:"Glyph Portal",cat:"Hero",desc:"Hero آینده‌نگر با Glyph Portal",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Hero", "Preview", "Source"]},
-{id:"live-5",title:"Constellation Grid",cat:"Hero",desc:"Hero با شبکهٔ ستاره‌ای",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Hero", "Preview", "Source"]},
-{id:"live-6",title:"Hero Scroll Video Pin Reveal",cat:"Hero",desc:"ویدیوی Hero با Pin و Reveal",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Hero", "Preview", "Source"]},
-{id:"live-7",title:"Squeeze Carousel",cat:"Features",desc:"Feature carousel فشرده",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Features", "Preview", "Source"]},
-{id:"live-8",title:"Feature Comparison Table",cat:"Features",desc:"جدول مقایسهٔ قابلیت‌ها",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Features", "Preview", "Source"]},
-{id:"live-9",title:"Alternating Rows With Stats",cat:"Features",desc:"ردیف‌های متناوب با آمار",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Features", "Preview", "Source"]},
-{id:"live-10",title:"V0 AI Chat",cat:"AI Chat",desc:"رابط گفت‌وگوی AI",author:"21st.dev",url:"https://21st.dev/community/components",tags:["AI Chat", "Preview", "Source"]},
-{id:"live-11",title:"AI Chat Image Generation",cat:"AI Chat",desc:"چت با تولید تصویر",author:"21st.dev",url:"https://21st.dev/community/components",tags:["AI Chat", "Preview", "Source"]},
-{id:"live-12",title:"Streaming Text",cat:"AI Chat",desc:"متن استریم‌شونده",author:"21st.dev",url:"https://21st.dev/community/components",tags:["AI Chat", "Preview", "Source"]},
-{id:"live-13",title:"AI Assistant Interface",cat:"AI Chat",desc:"رابط دستیار هوش مصنوعی",author:"21st.dev",url:"https://21st.dev/community/components",tags:["AI Chat", "Preview", "Source"]},
-{id:"live-14",title:"Animated Hero",cat:"Call to Action",desc:"CTA متحرک",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Call to Action", "Preview", "Source"]},
-{id:"live-15",title:"Background Paths",cat:"Call to Action",desc:"CTA با مسیرهای پس‌زمینه",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Call to Action", "Preview", "Source"]},
-{id:"live-16",title:"Rainbow Button",cat:"Call to Action",desc:"CTA با دکمه Rainbow",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Call to Action", "Preview", "Source"]},
-{id:"live-17",title:"Liquid Glass Button",cat:"Button",desc:"دکمه Liquid Glass",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Button", "Preview", "Source"]},
-{id:"live-18",title:"Interactive Hover Button",cat:"Button",desc:"دکمه تعاملی Hover",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Button", "Preview", "Source"]},
-{id:"live-19",title:"Liquid Metal Button",cat:"Button",desc:"دکمه فلز مایع",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Button", "Preview", "Source"]},
-{id:"live-20",title:"Rainbow Button",cat:"Button",desc:"دکمه رنگین‌کمانی",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Button", "Preview", "Source"]},
-{id:"live-21",title:"Shiny Button",cat:"Button",desc:"دکمه براق",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Button", "Preview", "Source"]},
-{id:"live-22",title:"Gradient Button",cat:"Button",desc:"دکمه Gradient",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Button", "Preview", "Source"]},
-{id:"live-23",title:"Neon Button",cat:"Button",desc:"دکمه نئونی",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Button", "Preview", "Source"]},
-{id:"live-24",title:"Testimonials Columns",cat:"Testimonial",desc:"نظرات ستونی",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Testimonial", "Preview", "Source"]},
-{id:"live-25",title:"3D Testimonials",cat:"Testimonial",desc:"نظرات سه‌بعدی",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Testimonial", "Preview", "Source"]},
-{id:"live-26",title:"Circular Testimonials",cat:"Testimonial",desc:"نظرات دایره‌ای",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Testimonial", "Preview", "Source"]},
-{id:"live-27",title:"Testimonials with Marquee",cat:"Testimonial",desc:"نظرات با Marquee",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Testimonial", "Preview", "Source"]},
-{id:"live-28",title:"Animated Testimonials",cat:"Testimonial",desc:"نظرات متحرک",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Testimonial", "Preview", "Source"]},
-{id:"live-29",title:"Pricing",cat:"Pricing",desc:"بخش قیمت‌گذاری",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Pricing", "Preview", "Source"]},
-{id:"live-30",title:"Pricing Section",cat:"Pricing",desc:"Pricing Section",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Pricing", "Preview", "Source"]},
-{id:"live-31",title:"Single Pricing Card",cat:"Pricing",desc:"کارت قیمت تکی",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Pricing", "Preview", "Source"]},
-{id:"live-32",title:"Pricing Module",cat:"Pricing",desc:"ماژول قیمت‌گذاری",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Pricing", "Preview", "Source"]},
-{id:"live-33",title:"Link Preview",cat:"Text",desc:"پیش‌نمایش لینک",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Text", "Preview", "Source"]},
-{id:"live-34",title:"Shining Text",cat:"Text",desc:"متن درخشان",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Text", "Preview", "Source"]},
-{id:"live-35",title:"Text Scroll Animation",cat:"Text",desc:"انیمیشن متن با اسکرول",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Text", "Preview", "Source"]},
-{id:"live-36",title:"Shimmer Text",cat:"Text",desc:"متن Shimmer",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Text", "Preview", "Source"]},
-{id:"live-37",title:"Text Rotate",cat:"Text",desc:"متن چرخان",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Text", "Preview", "Source"]},
-{id:"live-38",title:"Gradient Text",cat:"Text",desc:"متن Gradient",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Text", "Preview", "Source"]},
-{id:"live-39",title:"Magic Text",cat:"Text",desc:"متن Magic",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Text", "Preview", "Source"]},
-{id:"live-40",title:"Footer",cat:"Footer",desc:"فوتر واکنش‌گرا",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Footer", "Preview", "Source"]},
-{id:"live-41",title:"Navigation Menu",cat:"Navigation",desc:"منوی ناوبری",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Navigation", "Preview", "Source"]},
-{id:"live-42",title:"Search Bar",cat:"Navigation",desc:"نوار جست‌وجو",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Navigation", "Preview", "Source"]},
-{id:"live-43",title:"Spotlight Card",cat:"Card",desc:"کارت Spotlight",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Card", "Preview", "Source"]},
-{id:"live-44",title:"Card with Avatar",cat:"Card",desc:"کارت با Avatar",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Card", "Preview", "Source"]},
-{id:"live-45",title:"Confirm Dialog",cat:"Dialog",desc:"دیالوگ تأیید",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Dialog", "Preview", "Source"]},
-{id:"live-46",title:"Floating Label",cat:"Form",desc:"فیلد با Label شناور",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Form", "Preview", "Source"]},
-{id:"live-47",title:"Textarea with Label",cat:"Form",desc:"Textarea با Label",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Form", "Preview", "Source"]},
-{id:"live-48",title:"Dashboard",cat:"Dashboard",desc:"داشبورد داده و KPI",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Dashboard", "Preview", "Source"]},
-{id:"live-49",title:"Gallery",cat:"Gallery",desc:"گالری رسانه",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Gallery", "Preview", "Source"]},
-{id:"live-50",title:"Data Table",cat:"Table",desc:"جدول داده",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Table", "Preview", "Source"]},
-{id:"live-51",title:"Tabs",cat:"Tabs",desc:"تب‌های تعاملی",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Tabs", "Preview", "Source"]},
-{id:"live-52",title:"Toast",cat:"Toast",desc:"اعلان Toast",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Toast", "Preview", "Source"]},
-{id:"live-53",title:"Tooltip",cat:"Tooltip",desc:"راهنمای Tooltip",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Tooltip", "Preview", "Source"]},
-{id:"live-54",title:"Modal",cat:"Dialog",desc:"پنجره Modal",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Dialog", "Preview", "Source"]},
-{id:"live-55",title:"Accordion",cat:"Accordion",desc:"آکاردئون",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Accordion", "Preview", "Source"]},
-{id:"live-56",title:"Avatar",cat:"Avatar",desc:"آواتار کاربر",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Avatar", "Preview", "Source"]},
-{id:"live-57",title:"Badge",cat:"Badge",desc:"Badge وضعیت",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Badge", "Preview", "Source"]},
-{id:"live-58",title:"Calendar",cat:"Calendar",desc:"تقویم",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Calendar", "Preview", "Source"]},
-{id:"live-59",title:"Carousel",cat:"Carousel",desc:"Carousel",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Carousel", "Preview", "Source"]},
-{id:"live-60",title:"Charts & Data Viz",cat:"Chart",desc:"نمودار و Data Visualization",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Chart", "Preview", "Source"]},
-{id:"live-61",title:"Checkbox",cat:"Checkbox",desc:"Checkbox",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Checkbox", "Preview", "Source"]},
-{id:"live-62",title:"Dropdown",cat:"Dropdown",desc:"منوی Dropdown",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Dropdown", "Preview", "Source"]},
-{id:"live-63",title:"Empty State",cat:"Empty State",desc:"حالت خالی",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Empty State", "Preview", "Source"]},
-{id:"live-64",title:"File Upload",cat:"File Upload",desc:"آپلود فایل",author:"21st.dev",url:"https://21st.dev/community/components",tags:["File Upload", "Preview", "Source"]},
-{id:"live-65",title:"Input",cat:"Input",desc:"فیلد Input",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Input", "Preview", "Source"]},
-{id:"live-66",title:"Links",cat:"Link",desc:"لینک‌های UI",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Link", "Preview", "Source"]},
-{id:"live-67",title:"Lists",cat:"List",desc:"لیست‌ها",author:"21st.dev",url:"https://21st.dev/community/components",tags:["List", "Preview", "Source"]},
-{id:"live-68",title:"Menus",cat:"Menu",desc:"منو",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Menu", "Preview", "Source"]},
-{id:"live-69",title:"Notifications",cat:"Notification",desc:"اعلان‌ها",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Notification", "Preview", "Source"]},
-{id:"live-70",title:"Onboarding",cat:"Onboarding",desc:"جریان شروع کار",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Onboarding", "Preview", "Source"]},
-{id:"live-71",title:"Pagination",cat:"Pagination",desc:"صفحه‌بندی",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Pagination", "Preview", "Source"]},
-{id:"live-72",title:"Popover",cat:"Popover",desc:"Popover",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Popover", "Preview", "Source"]},
-{id:"live-73",title:"Profiles",cat:"Profile",desc:"پروفایل",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Profile", "Preview", "Source"]},
-{id:"live-74",title:"Progress",cat:"Progress",desc:"Progress",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Progress", "Preview", "Source"]},
-{id:"live-75",title:"Radio Groups",cat:"Radio",desc:"Radio Group",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Radio", "Preview", "Source"]},
-{id:"live-76",title:"Select",cat:"Select",desc:"Select",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Select", "Preview", "Source"]},
-{id:"live-77",title:"Sidebar",cat:"Sidebar",desc:"Sidebar",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Sidebar", "Preview", "Source"]},
-{id:"live-78",title:"Sign In",cat:"Auth",desc:"ورود",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Auth", "Preview", "Source"]},
-{id:"live-79",title:"Sign Up",cat:"Auth",desc:"ثبت‌نام",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Auth", "Preview", "Source"]},
-{id:"live-80",title:"Slider",cat:"Slider",desc:"Slider",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Slider", "Preview", "Source"]},
-{id:"live-81",title:"Spinner Loader",cat:"Loader",desc:"بارگذاری",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Loader", "Preview", "Source"]},
-{id:"live-82",title:"Toggle",cat:"Toggle",desc:"Toggle",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Toggle", "Preview", "Source"]},
-{id:"live-83",title:"Tag",cat:"Tag",desc:"Tag",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Tag", "Preview", "Source"]},
-{id:"live-84",title:"Text Area",cat:"Text Area",desc:"Text Area",author:"21st.dev",url:"https://21st.dev/community/components",tags:["Text Area", "Preview", "Source"]}];
-const cats=[...new Set(items.map(x=>x.cat))];
+const seedItems=[[]];
+
 const grid=document.querySelector("#grid"), search=document.querySelector("#search"), filter=document.querySelector("#filter"), chips=document.querySelector("#categoryChips"), count=document.querySelector("#count"), modal=document.querySelector("#modal"), modalContent=document.querySelector("#modalContent");
-function fallback(){return '<div class="fallback"><div class="shape"></div><span>OPEN 21ST PREVIEW ↗</span></div>'}
-function render(list){count.textContent=list.length;grid.innerHTML=list.map((x,i)=>`<article class="card glass"><div class="preview"><a class="preview-link" href="${x.url}" target="_blank" rel="noopener">${fallback()}</a></div><div class="card-body"><div class="card-top"><span class="badge">${x.cat}</span><span class="badge">${x.author}</span></div><h3>${x.title}</h3><p>${x.desc}</p><div class="meta">${x.tags.map(t=>'<span>'+t+'</span>').join('')}</div><div class="card-actions"><button class="main" data-info="${x.id}">جزئیات / کد</button><a href="${x.url}" target="_blank" rel="noopener">منبع ↗</a></div></div></article>`).join('');document.querySelectorAll("[data-info]").forEach(b=>b.onclick=()=>openItem(items.find(x=>x.id===b.dataset.info)))}
-function openItem(x){modalContent.innerHTML=`<span class="kicker">${x.cat}</span><h2>${x.title}</h2><p style="color:var(--muted)">ساخته‌شده توسط ${x.author}. برای دیدن کد و پرامپت اصلی، منبع رسمی را باز کنید.</p><div class="modal-links"><a href="${x.url}" target="_blank" rel="noopener">باز کردن صفحه 21st ↗</a><button id="copyInstall">کپی دستور نصب</button></div><pre>npx shadcn@latest add ${x.url.replace("https://21st.dev/community/components/","https://21st.dev/r/").replace("/default","")}</pre><p style="color:var(--muted);font-size:12px">این آرشیو متن کامل کد یا پرامپت شخص ثالث را دوباره منتشر نمی‌کند؛ صفحه اصلی 21st منبع کد، پرامپت و پیش‌نمایش هر قطعه است.</p>`;modal.classList.add("open");modal.setAttribute("aria-hidden","false");document.querySelector("#copyInstall").onclick=()=>navigator.clipboard?.writeText(document.querySelector("#copyInstall").parentElement.nextElementSibling.textContent)}
-document.addEventListener("click",e=>{if(e.target.matches("[data-close]")){modal.classList.remove("open");modal.setAttribute("aria-hidden","true")}});document.addEventListener("keydown",e=>{if(e.key==="Escape")modal.classList.remove("open")});
-cats.forEach(c=>{const o=document.createElement("option");o.value=c;o.textContent=c;filter.appendChild(o);const b=document.createElement("button");b.className="chip";b.textContent=c;b.onclick=()=>{filter.value=c;apply()};chips.appendChild(b)});
-function apply(){const q=search.value.trim().toLowerCase(),f=filter.value;render(items.filter(x=>(f==="all"||x.cat===f)&&(!q||(x.title+" "+x.cat+" "+x.desc+" "+x.tags.join(" ")).toLowerCase().includes(q))))}
-search.oninput=apply;filter.onchange=apply;render(items);
+let items=[...seedItems], catalogCategories=[];
+
+const palette=["cyan","pink","violet","green"];
+function visual(x,i){
+  const tone=palette[i%palette.length];
+  return `<a class="preview-link" href="${x.url}" target="_blank" rel="noopener" aria-label="Open ${x.title}">
+    <div class="catalog-preview tone-${tone}">
+      <div class="preview-grid"></div>
+      <div class="preview-orb"></div>
+      <div class="preview-window"><span></span><span></span><span></span><b>${x.cat||"UI"}</b><strong>${x.title}</strong><small>21st.dev source ↗</small></div>
+    </div>
+  </a>`;
+}
+function render(list){
+  count.textContent=list.length;
+  grid.innerHTML=list.map((x,i)=>`<article class="card glass"><div class="preview">${visual(x,i)}</div><div class="card-body"><div class="card-top"><span class="badge">${x.cat}</span><span class="badge">${x.author||"21st.dev"}</span></div><h3>${x.title}</h3><p>${x.desc||"رابط رسمی و نمایشی برای کشف این الگو."}</p><div class="meta">${(x.tags||[x.cat,"Preview","Source"]).map(t=>"<span>"+t+"</span>").join("")}</div><div class="card-actions"><button class="main" data-info="${x.id}">جزئیات</button><a href="${x.url}" target="_blank" rel="noopener">منبع ↗</a></div></div></article>`).join("");
+  document.querySelectorAll("[data-info]").forEach(b=>b.onclick=()=>openItem(items.find(x=>x.id===b.dataset.info)));
+}
+function rebuildFilters(){
+  chips.innerHTML=""; filter.innerHTML='<option value="all">همه دسته‌ها</option>';
+  const cats=[...new Set(items.map(x=>x.cat))];
+  cats.forEach(c=>{
+    const o=document.createElement("option");o.value=c;o.textContent=c;filter.appendChild(o);
+    const b=document.createElement("button");b.className="chip";b.textContent=c;b.onclick=()=>{filter.value=c;apply()};chips.appendChild(b);
+  });
+}
+function openItem(x){
+  if(!x)return;
+  modalContent.innerHTML=`<span class="kicker">${x.cat}</span><h2>${x.title}</h2><div class="modal-preview">${visual(x,0)}</div><p style="color:var(--muted)">این کارت یک نمای بصری داخلی دارد و برای مشاهده نمونه، کد یا پرامپت اصلی به صفحه رسمی 21st.dev می‌رود.</p><div class="modal-links"><a href="${x.url}" target="_blank" rel="noopener">باز کردن منبع رسمی ↗</a></div>`;
+  modal.classList.add("open");modal.setAttribute("aria-hidden","false");
+}
+function apply(){
+  const q=search.value.trim().toLowerCase(),f=filter.value;
+  render(items.filter(x=>(f==="all"||x.cat===f)&&(!q||(x.title+" "+x.cat+" "+(x.desc||"")+" "+(x.tags||[]).join(" ")).toLowerCase().includes(q))));
+}
+document.addEventListener("click",e=>{if(e.target.matches("[data-close]")){modal.classList.remove("open");modal.setAttribute("aria-hidden","true")}});
+document.addEventListener("keydown",e=>{if(e.key==="Escape")modal.classList.remove("open")});
+search.oninput=apply;filter.onchange=apply;
 document.querySelector("#themeBtn").onclick=()=>document.body.classList.toggle("dim");
+
+async function loadCatalog(){
+  try{
+    const res=await fetch("data/catalog.json",{cache:"no-store"});
+    if(!res.ok)throw new Error("catalog");
+    const data=await res.json();
+    catalogCategories=data.categories||[];
+    const categoryItems=catalogCategories.map((c,i)=>({
+      id:"catalog-"+i,title:c[0],cat:"Category",desc:`${c[2].toLocaleString()}+ نمونه در این دسته، طبق کاتالوگ منتشرشده.`,
+      author:"21st.dev",url:c[1],tags:["Category","Preview","Source"]
+    }));
+    items=[...seedItems,...categoryItems];
+  }catch(e){
+    items=[...seedItems];
+  }
+  rebuildFilters();apply();
+}
+loadCatalog();

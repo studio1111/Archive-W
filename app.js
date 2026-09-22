@@ -1,4 +1,17 @@
-const seedItems=[[]];
+const seedItems=[
+{id:"hero-1",title:"Hero 1",cat:"Hero",author:"sshahaider",url:"https://21st.dev/community/components/sshahaider/hero-1",desc:"Hero component with dedicated source page.",tags:["Hero","Source"]},
+{id:"scroll-video-hero",title:"Scroll Video Hero",cat:"Hero",author:"explore",url:"https://21st.dev/community/components/explore/nt-scroll-video-hero-prompt",desc:"Scroll-driven video hero source.",tags:["Hero","Video","Scroll","Source"]},
+{id:"hero-button",title:"Hero Button Expendable",cat:"Hero",author:"shadway",url:"https://21st.dev/community/components/shadway/hero-button-expendable/default",desc:"Dedicated component source.",tags:["Hero","Button","Source"]},
+{id:"card-avatar",title:"Card with Avatar",cat:"Card",author:"Hero UI",url:"https://21st.dev/%40hero_ui/components/heroui-card/with-avatar",desc:"Card component with avatar.",tags:["Card","Avatar","Source"]},
+{id:"type-confirm",title:"Type to Confirm Dialog",cat:"Dialog",author:"uimix",url:"https://21st.dev/community/components/uimix/one-dialog/type-to-confirm",desc:"Dedicated dialog source.",tags:["Dialog","Modal","Source"]},
+{id:"textarea-label",title:"Textarea with Label",cat:"Text Area",author:"jshguo",url:"https://21st.dev/community/components/jshguo/interfaces-textarea/with-label",desc:"Textarea source.",tags:["Text Area","Form","Source"]},
+{id:"floating-label",title:"Floating Label",cat:"Input",author:"arihantcodes",url:"https://21st.dev/community/components/arihantcodes_1f7b8c4d/floating-label/default",desc:"Input source.",tags:["Input","Form","Source"]},
+{id:"help-button",title:"Help Button",cat:"Button",author:"ln-dev7",url:"https://21st.dev/community/components/ln-dev7/help-button/default",desc:"Button source.",tags:["Button","Source"]},
+{id:"file-trigger",title:"File Trigger",cat:"File Upload",author:"jollyshopland",url:"https://21st.dev/community/components/jollyshopland/file-trigger",desc:"File selection source.",tags:["File Upload","Source"]},
+{id:"copy-button",title:"Copy Button Variants",cat:"Button",author:"qredence",url:"https://21st.dev/community/components/qredence/copy-button-variants/default",desc:"Copy button source.",tags:["Button","Clipboard","Source"]},
+{id:"warning-note",title:"Warning Note",cat:"Notification",author:"shugar",url:"https://21st.dev/community/components/shugar/note/warning",desc:"Warning note source.",tags:["Notification","Alert","Source"]},
+{id:"otp-dialog",title:"Verify Code OTP",cat:"Dialog",author:"felipemenezes098",url:"https://21st.dev/community/components/felipemenezes098/the-dialog/verify-code-otp",desc:"OTP dialog source.",tags:["Dialog","OTP","Auth","Source"]}
+];
 
 const grid=document.querySelector("#grid"), search=document.querySelector("#search"), filter=document.querySelector("#filter"), chips=document.querySelector("#categoryChips"), count=document.querySelector("#count"), modal=document.querySelector("#modal"), modalContent=document.querySelector("#modalContent");
 let items=[...seedItems], catalogCategories=[];

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Archive-W Neon Glass UI Archive">
+<title>Archive-W • Neon Glass UI Archive</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="noise"></div><div class="orb orb-a"></div><div class="orb orb-b"></div><div class="orb orb-c"></div>
+<header class="topbar glass">
+  <a class="brand" href="#"><span class="brand-mark">AW</span><span>Archive<span class="accent">-W</span></span></a>
+  <nav><a href="#catalog">کتابخانه</a><a href="#categories">دسته‌ها</a><a href="https://21st.dev" target="_blank" rel="noopener">21st.dev ↗</a></nav>
+  <button id="themeBtn" class="icon-btn" aria-label="تغییر افکت">◈</button>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <div class="eyebrow"><span class="pulse"></span> UI COMPONENT ARCHIVE / 21ST INSPIRED</div>
+    <h1>کتابخانه‌ای برای <span class="gradient-text">هر قطعه‌ای</span> که یک محصول مدرن لازم دارد.</h1>
+    <p>کارت‌های شیشه‌ای، نئون RGB، جست‌وجوی سریع و پیش‌نمایش زنده برای Hero، Header، Footer، Button، Card، Form، Dashboard و صدها الگوی دیگر.</p>
+    <div class="hero-actions"><a class="btn btn-primary" href="#catalog">ورود به آرشیو <span>↓</span></a><a class="btn btn-ghost" href="https://21st.dev/community/components" target="_blank" rel="noopener">مشاهده منبع اصلی ↗</a></div>
+    <div class="stats"><div><b id="count">0</b><span>قطعه نمایشی</span></div><div><b>RGB</b><span>Neon Glass</span></div><div><b>RTL</b><span>Persian ready</span></div></div>
+  </div>
+  <div class="hero-visual glass">
+    <div class="terminal-top"><i></i><i></i><i></i><span>archive-w / component.tsx</span></div>
+    <div class="code-window"><span class="kw">export</span> <span class="fn">function</span> <span class="name">NeonHero</span>() {<br>&nbsp;&nbsp;<span class="kw">return</span> (<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="tag">&lt;section</span> className=<span class="str">"glass neon"</span><span class="tag">&gt;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build something <span class="accent">beautiful</span>.<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="tag">&lt;/section&gt;</span><br>&nbsp;&nbsp;);<br>}</div>
+    <div class="mini-preview"><div class="mini-grid"></div><span>LIVE PREVIEW</span><strong>Design. Copy. Ship.</strong></div>
+  </div>
+</section>
+
+<section class="category-strip" id="categories">
+  <div class="section-head"><div><span class="kicker">EXPLORE</span><h2>هر چیزی که در UI لازم داری</h2></div><p>دسته‌بندی شده، قابل جست‌وجو و آماده برای توسعه.</p></div>
+  <div id="categoryChips" class="chips"></div>
+</section>
+
+<section class="catalog" id="catalog">
+  <div class="catalog-head">
+    <div><span class="kicker">COMPONENT ARCHIVE</span><h2>کارت‌های قطعات</h2></div>
+    <div class="tools"><label class="search glass"><span>⌕</span><input id="search" placeholder="جست‌وجوی Hero، Button، Card..." /></label><select id="filter" class="glass"><option value="all">همه دسته‌ها</option></select></div>
+  </div>
+  <div id="grid" class="grid"></div>
+</section>
+</main>
+<footer class="footer glass"><div><b>Archive<span class="accent">-W</span></b><p>یک آرشیو بصری برای کشف و سازمان‌دهی UI.</p></div><div><span>منبع قطعات:</span><a href="https://21st.dev" target="_blank" rel="noopener">21st.dev</a></div><div><span>ساخته‌شده برای:</span><span>React · Tailwind · shadcn</span></div></footer>
+<div id="modal" class="modal" aria-hidden="true"><div class="modal-backdrop" data-close></div><article class="modal-card glass"><button class="modal-close" data-close>×</button><div id="modalContent"></div></article></div>
+<script src="app.js"></script>
+</body></html>
